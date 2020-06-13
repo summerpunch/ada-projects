@@ -1,0 +1,12 @@
+server:
+  port: 1130
+
+spring:
+  datasource:
+    basic:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost/ada-basic?serverTimezone=Asia/Shanghai&autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
+
+
